@@ -23,10 +23,10 @@ function getGitHubProfileInfos() {
     .then(response => response.json())
     .then(data => {
       userName.textContent = data.name
-      userLink.href = data.html_url
-      userLogin.textContent = data.login
       userBio.textContent = data.bio
-      UserImage.src = data.logomarca_url
+      userLink.href = data.html_url
+      UserImage.src = data.avatar_url
+      userLogin.textContent = data.login
     })
 }
 getGitHubProfileInfos()

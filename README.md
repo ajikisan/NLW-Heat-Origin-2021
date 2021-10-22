@@ -20,7 +20,7 @@ Next Level Week Heat - #ImaginarConstruirTransformar
 Instrutora: Jakeliny Gracielly
 Stage 4 – Aprendemos sobre o conceito API "Application Programming Interface" e JSON "Javascript Object Notation", além de entender um pouco sobre a configuração e utilização do github.
 
-Concluímos a missão da confecção do crachá virtual através da programação HTML, CSS e JavaScript ao qual o link foi compartilhado pelas redes sociais.
+Concluímos a missão da confecção do crachá virtual através da programação em HTML, CSS e JavaScript ao qual o link foi compartilhado pelas redes sociais.
 Next Level Week Heat - #Semlimites
 
 Obrigada aos tutores por compartilharem o conhecimento, agora sou programadora front end web.
