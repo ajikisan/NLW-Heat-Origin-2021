@@ -6,11 +6,10 @@ html,
 body {
   --black: hsl(240, 6%, 13%);
   --grey: hsl(240, 9%, 89%);
-
+  background: hsl(0, 24%, 21%);
   height: 100%;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smothing: antialiased;
-  background: hsl(272, 82%, 55%);
 }
 
 body {
@@ -18,11 +17,31 @@ body {
   place-items: center;
 }
 
+/* Media queries - Responsividade - para que haja ajuste da exibição do conteúdo na tela
+breakpoints e at rule @ no css
+    @media (min-width: 720px (tablete) min-width: 960px desktop) {
+    	/* estilos versão tablet */
+
+@media (min-width: 576px) {
+  main {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    max-width: 720px;
+  }
+}
+
 /*Figma sempre mostra os resultados em pixels*/
 
 main {
-  background: url(images/background.svg);
+  background: url(images/background.svg) no-repeat center/cover; /*ajuste para dispositivos móveis */
+  /*width: 300vw;*/
   width: 375px;
+  /*min-height: 812px;*/
+  /*height: 100vh;*/
   height: 812px;
 }
 
@@ -84,4 +103,40 @@ ul {
   gap: 0.5rem;
   justify-content: center;
   /*text-align: center; - elemento só para textos*/
+}
+
+/*Animação dos botões de mídias sociais*/
+.socialButton {
+  position: relative;
+  border-radius: 0.25rem;
+  width: 50px;
+  top: 0;
+  transition: all ease 0.3s ease-in-out;
+}
+.socialButton:hover {
+  border-radius: 50%;
+  top: -8px;
+}
+
+.rope {
+  position: absolute;
+  z-index: 1;
+  width: 80px;
+  height: 750px;
+  background: linear-gradient(161.24deg, #ff008e -15.25%, #ffcd1e 111.89%);
+  border-radius: 0 0 3px 3px;
+  top: 1;
+  margin-top: -45rem;
+  margin-left: 8.9rem;
+}
+
+.clasp {
+  position: absolute;
+  background: #121214;
+  z-index: 1;
+  width: 100px;
+  height: 12px;
+  margin-left: 8.3rem;
+  margin-top: 1.5rem;
+  border-radius: 1.5rem;
 }

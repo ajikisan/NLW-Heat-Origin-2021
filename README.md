@@ -21,6 +21,15 @@ Instrutora: Jakeliny Gracielly
 Stage 4 – Aprendemos sobre o conceito API "Application Programming Interface" e JSON "Javascript Object Notation", além de entender um pouco sobre a configuração e utilização do github.
 
 Concluímos a missão da confecção do crachá virtual através da programação em HTML, CSS e JavaScript ao qual o link foi compartilhado pelas redes sociais.
+
 Next Level Week Heat - #Semlimites
+
+22/10/2021 Instrutor: Maik Brito
+Stage 5: Foi realizada a apresentação da plataforma do Rocketseat - Discover, Ignite, Experts Club, Higher e Suporte.
+Tivemos como desafio - usar a aplicação da media queries para adicionar animações, realizar alterações na página e/ou cor do crachá, assim como o recurso de responsividade para ajuste do layout em dispositivos móveis: celular, tablet, notebook e monitores em geral.
+
+Next Level Week Heat - #BuildTheFuture
+
+URL: https://ajikisan.github.io/NLW-Heat-Origin-2021/
 
 Obrigada aos tutores por compartilharem o conhecimento, agora sou programadora front end web.
